@@ -11,7 +11,7 @@ interface IContext extends b.IBobrilCtx {
     data: IData;
 }
 
-export const create = b.createDerivedComponent<IData>(m.Paper, {
+export const create = b.createDerivedComponent<IData, m.IPaperData>(m.Paper, {
     render(ctx: IContext, me: b.IBobrilNode) {
         const d = ctx.data;
 

@@ -107,7 +107,7 @@ function getBarChartOptions() {
     }
 }
 
-function getAreaChartOptions() {
+function getAreaChartOptions() : BHighchart.IHighchartsOptions{
     return {
         chart: {
             type: 'area'
@@ -123,7 +123,7 @@ function getAreaChartOptions() {
             allowDecimals: false,
             labels: {
                 formatter: function () {
-                    return this.value; // clean, unformatted number for year
+                    return (this  as any).value; // clean, unformatted number for year
                 }
             }
         },
@@ -133,7 +133,7 @@ function getAreaChartOptions() {
             },
             labels: {
                 formatter: function () {
-                    return this.value / 1000 + 'k';
+                    return (this  as any).value/ 1000 + 'k';
                 }
             }
         },

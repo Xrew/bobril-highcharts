@@ -1,27 +1,32 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "declaration": false,
-        "lib": [
-            "es5",
-            "dom",
-            "es2015.core",
-            "es2015.promise"
-        ],
-        "removeComments": false,
-        "noLib": false,
-        "preserveConstEnums": false,
-        "jsx": "react",
-        "reactNamespace": "b",
-        "experimentalDecorators": true
-    },
-    "include": [
-        "**/*"
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": [
+      "es2022",
+      "dom"
     ],
-    "compileOnSave": false,
-    "files": [
-        "node_modules/bobril/jsx.d.ts"
-    ]
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "reactNamespace": "b",
+    "removeComments": false,
+    "skipLibCheck": false,
+    "skipDefaultLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2019",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "**/*"
+  ]
 }

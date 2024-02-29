@@ -5,18 +5,21 @@
 bobril-flex-ie10@*:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/bobril-flex-ie10/-/bobril-flex-ie10-1.1.1.tgz#181b998f942b55036934f0a11e7d85d8689e9690"
+  integrity sha512-Rr9qfIr0CU7I9vzv+/mNTw7vt4XBrnppb+T5NiRuFE+MoPiIwcItJKDtTgAhlGcJTYtBKTs1wL7Rawld0SdJYQ==
   dependencies:
     bobril "*"
 
 bobril-m-icons@*:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/bobril-m-icons/-/bobril-m-icons-2.0.0.tgz#3c792ce64640d6c5735006aee8b0d14368e56a50"
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bobril-m-icons/-/bobril-m-icons-2.1.0.tgz#32f81d515a7faf71f857a2ed1b637ec566f4161f"
+  integrity sha512-UZijK0S11hiLTNLBUtgqocePzJWcD2w34EJklHlacJrX2peY/i+ofICz9oGtVQnh2uPE+E7SbZKvyWB0ICb0Aw==
   dependencies:
     bobril "*"
 
 bobril-m@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/bobril-m/-/bobril-m-0.9.0.tgz#6826251325c3ed71875c71bbb310d762bda2e990"
+  integrity sha512-Vpph9glTTqU8bc1ZduygdhSGaYlYWpqcN2m4HFFeyGsZlaNUEnOxAa/Y19q+IzSBJYd+QHfGxtxOxVlVR4sqmg==
   dependencies:
     bobril "*"
     bobril-flex-ie10 "*"
@@ -24,13 +27,16 @@ bobril-m@^0.9.0:
     webfontloader "^1.6.21"
 
 bobril@*:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/bobril/-/bobril-6.0.2.tgz#4c685051fa8b6d26af89246e0b19d001015d353e"
+  version "20.6.1"
+  resolved "https://registry.yarnpkg.com/bobril/-/bobril-20.6.1.tgz#339e3d45fb0f1ad97dfd7901fa4f4601ee9d9604"
+  integrity sha512-Qm3J7iu1Vx4wWaZ8THE5t25jCQfJCMPvkSC0FNsK16t7m1X8Uq5XN2YRDy0k+Wmfrnl+moHMSgPm8fAii5UxBA==
 
 highcharts@*:
-  version v5.0.9
-  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-5.0.9.tgz#456e2c25cbf72440528619e092a48c12b9898d30"
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-11.3.0.tgz#cb9e366f9889ec8fd2a546a44cba3e138824458f"
+  integrity sha512-Dk+Qfk/xit8KnXKPDxmcVcq48ZlcVSq7oYJR5VZlAVWnJ0BY3JFFi1GOvgSNUzlh2wzsfenihWpkAkWoag4Xqg==
 
 webfontloader@^1.6.21:
-  version "1.6.27"
-  resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.27.tgz#c3899649b0653aa57d0a23388f82409e0df224ba"
+  version "1.6.28"
+  resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.28.tgz#db786129253cb6e8eae54c2fb05f870af6675bae"
+  integrity sha512-Egb0oFEga6f+nSgasH3E0M405Pzn6y3/9tOVanv/DLfa1YBIgcv90L18YyWnvXkRbIM17v5Kv6IT2N6g1x5tvQ==
